@@ -1,0 +1,17 @@
+/* ------ INDEX HTML ------*/
+#homejumbo{
+    height: 100vh;
+    background: linear-gradient(rgba(44, 31, 31, 0.6), rgba(21, 21, 21, 0.9)), url('./images/salonimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #FCFFFC;
+    border-bottom: 4px solid #2b2724;
+    border-top: 4px solid #2b2724;
+    margin-bottom: 0;
+}
+#navbarhomescreen{
+    position: relative;
+    bottom: 50px;
+    z-index: 100;
+  }
