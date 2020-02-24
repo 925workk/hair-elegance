@@ -98,6 +98,7 @@
 
 .aboutContainer{
     background-color: #d7d2cf;
+    padding-bottom: 30px;
 }
 
 .aboutus{
@@ -127,9 +128,20 @@
     transform: translate(-50%, 20%);
     padding-bottom: 50px;
 }
+
+.locationContainer{
+    padding-bottom: 40px;
+}
 .location{
     position: relative;
     top: 50px;
+}
+/* ------ SERVICES SECTION ------*/
+.servicesContainer{
+    background: linear-gradient(rgba(44, 31, 31, 0.6), rgba(21, 21, 21, 0.9)), url('./images/background.jpg');
+    background-position: center;
+    color: #f0e9e9;
+    font-family: 'Montserrat', sans-serif;
 }
 /* ------ MEDIA QUIERIES ------*/
 
@@ -157,6 +169,9 @@
         position: relative;
         bottom: 80px;
     }
+    .locationText{
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px) { 
@@ -175,5 +190,10 @@
     .landingContents{
         position: relative;
         bottom: 80px;
+    }
+    .servicesContainer{
+        background: none;
+        background-color: #281e17;
+        text-align: center;
     }
 }
