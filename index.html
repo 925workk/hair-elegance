@@ -7,39 +7,99 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Hair Elegance</title>
 </head>
 <body>
     <!-- LANDING PAGE -->
-    <div class="jumbotron jumbotron-fluid text-center" id='homejumbo'>
+    <div class="homepagelanding">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light" id ="navbarhomescreen">
-                <a class="navbar-brand" href="#"><img src="./images/hairelegancenewlogo.png" style="width: 180px; height: 540;"></a>
+            <nav class="navbar navbar-expand-md navbar-light" id ="navbarhomescreen">
+                <a class="navbar-brand hairelegance" href="#">Hair Elegance</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">   
+                        <i class="fa fa-bars" style="color:#f0e9e9; font-size:28px;"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav navigationlinks mx-auto centernavbuttons">
                     <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link navbuttonactive" href="#">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link navbutton" href="#">STYLIST</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link navbutton" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link navbutton" href="#">CAREERS</a>
                     </li>
                 </ul>
                 </div>
             </nav>
-            <div id="jumbotext">
-            <h1 class="display-4">BIG pick ups, quickly.</h1>
-            <p>Fridges, washers, dryers, dishwashers, etc. Peer to peer pick up and delivery service.</p>
+            <div class="landingContents">
+                <div class="row">
+                    <div class="landingmessage text-center">
+                        <img src="./images/sheers.png" alt="sheers" style="width: 100px; height: 100px;" class="sheers">
+                        <h1>Hair Elegance</h1>
+                        <h2>WHERE BEAUTY<br>MEETS EXCELLENCE</h2>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <button type="button" class="btn btn-outline-light mt-1 mx-auto learnMoreButton">Learn More</button>
+                </div>
             </div>
         </div>
     </div>
-
+    <!-- ABOUT SECTION -->
+    <div class="aboutContainer">
+        <div class="container">
+            <h3 class="aboutus text-center pt-5 pb-4">A South Jordan Favorite Since 2008</h3>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center pb-5">
+                    <img src="./images/sittingclient.jpeg" style="width: 100%; height:auto;">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <h4 class="text-center">Hair & Nail Salon</h4>
+                    <p>Our professional team of designers‚ color specialists‚ and nail technicians are here to serve you with cutting edge styles. We are dedicated to help you find the right cut‚ color‚ and texture that fits you and your lifestyle. Our entire team is required to continue with advanced education keeping us on top‚ being leaders of the industry.</p>
+                    <p>Hair Elegance utilizes salon training taught by well known artists from Redken‚ Wella‚ Pravana and Kenra. Our goal is to give you the most advanced techniques while providing superior customer service. Whether you had your haircut here or anywhere else, we would like to offer you free training techniques on how to style your hair so you will always have the salon look at home.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- STYLIST SECTION -->
+    <div class="stylistContainer">
+        <div class="container">
+            <h3 class="stylistHeading text-center pt-5 pb-4">Home to the City's most Artistic Stylists</h3>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 stylistText text-center">
+                    <p style="width: 87%;" class="mx-auto">Our stylists and technicians are handpicked for perfection to ensure you recieve the best services possible in the valley. Our stylists will connect with you on a personal level, using their creativity and skill to envision a style that embraces your individuality and lifestyle.</p>
+                    <a><button class="btn btn-outline-light mt-1 mx-auto stylistButton">MEET YOUR STYLIST</button></a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
+                    <img src="./images/girlmodel.png" style="width: 100%; height:auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LOCATION SECTION -->
+    <div class="locationContainer">
+        <div class="container">
+            <h3 class="text-center location">LOCATION</h3>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 stylistText text-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12127.871279852874!2d-111.9809723!3d40.5423001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf678ad13f699d85c!2sHair%20Elegance!5e0!3m2!1sen!2sus!4v1582576848810!5m2!1sen!2sus" width="530" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl- text-center">
+                
+            </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"

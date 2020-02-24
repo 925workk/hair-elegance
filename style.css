@@ -1,5 +1,5 @@
-/* ------ INDEX HTML ------*/
-#homejumbo{
+/* ------ LANDING PAGE INDEX HTML NAVBAR ------*/
+.homepagelanding{
     height: 100vh;
     background: linear-gradient(rgba(44, 31, 31, 0.6), rgba(21, 21, 21, 0.9)), url('./images/salonimage.jpg');
     background-repeat: no-repeat;
@@ -12,6 +12,168 @@
 }
 #navbarhomescreen{
     position: relative;
-    bottom: 50px;
     z-index: 100;
   }
+
+.navigationlinks{
+    text-align: center;
+    font-size: 17px;
+}
+
+.centernavbuttons{
+    position: relative;
+    right: 58px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbutton{
+    color: #f0e9e9 !important;
+    opacity: 67%;
+}
+
+.navbuttonactive{
+    color: #f0e9e9 !important;
+}
+
+.navbar-toggler{
+    border-color: #f0e9e9;
+    outline: none !important;
+    border: none !important;
+}
+
+.collapsedcolor{
+    background-color: #f0e9e9 !important;
+}
+
+.hairelegance {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #f0e9e9 !important;
+}
+
+.landingmessage{
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+}
+
+.sheers{
+    transform: rotate(-36deg);
+    position: relative;
+    top: -10px;
+}
+
+.landingmessage h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    bottom:40px;
+}
+
+.landingmessage h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    position: relative;
+    top: 70px;
+    letter-spacing: 8px;
+    word-spacing: 8px;
+}
+
+#h2bottom {
+    position: relative;
+    bottom: 200px !important
+}
+
+.learnMoreButton{
+    position: relative;
+    top: 260px !important;
+    width: 140px;
+    letter-spacing: 1px;
+}
+
+/* ------ ABOUT US ------*/
+
+.aboutContainer{
+    background-color: #d7d2cf;
+}
+
+.aboutus{
+    /* font-family: 'Lora', serif; */
+    /* font-family: 'Karla', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+/* ------ STYLIST SECTION ------*/
+.stylistContainer{
+    background-color: #0d0d0d;
+    font-family: 'Montserrat', sans-serif;
+    color: #9e9b98;
+}
+
+.stylistButton{
+    font-size: 12px;
+    color: #9e9b98;
+    border-color: #9e9b98;
+    margin-bottom: 40px;
+}
+
+.stylistText{
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, 20%);
+    padding-bottom: 50px;
+}
+.location{
+    position: relative;
+    top: 50px;
+}
+/* ------ MEDIA QUIERIES ------*/
+
+@media (max-width: 991px) { 
+    .stylistText{
+        text-align: center;
+        position: relative;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, 20%);
+    }
+
+    .centernavbuttons{
+        position: relative;
+        right: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .landingmessage{
+        position: relative;
+        bottom: 80px;
+    }
+
+    .landingContents{
+        position: relative;
+        bottom: 80px;
+    }
+}
+
+@media (max-width: 768px) { 
+
+    .centernavbuttons{
+        position: relative;
+        right: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .landingmessage{
+        position: relative;
+        bottom: 80px;
+    }
+
+    .landingContents{
+        position: relative;
+        bottom: 80px;
+    }
+}
