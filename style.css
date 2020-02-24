@@ -143,6 +143,14 @@
     color: #f0e9e9;
     font-family: 'Montserrat', sans-serif;
 }
+
+.serviceText{
+    position: relative;
+    top:20px;
+}
+/* ------ FOOTER ------*/
+
+   
 /* ------ MEDIA QUIERIES ------*/
 
 @media (max-width: 991px) { 
