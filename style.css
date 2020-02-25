@@ -158,6 +158,8 @@
     position: relative;
     top: 50px;
 }
+
+
 /* ------ SERVICES SECTION ------*/
 .servicesContainer{
     background: linear-gradient(rgba(44, 31, 31, 0.6), rgba(21, 21, 21, 0.9)), url('./images/background.jpg');
@@ -229,5 +231,18 @@
         background-image: url(images/dark_wood.png);
         text-align: center;
         background-repeat: repeat;
+    }
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
     }
 }
