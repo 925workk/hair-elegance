@@ -19,6 +19,7 @@
 <body>
 
     <div class="stylistPageContainer">
+        <div class="brownbackgroundbar"></div>
         <div class="container">
             <div class="nav-section">
                 <nav class="navbar navbar-expand-md navbar-light" id="navbarhomescreen">
@@ -31,18 +32,18 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav navigationlinks mx-auto centernavbuttons">
-                            <li class="nav-item active">
-                                <a class="nav-link navbutton" href="index.html">HOME <span
+                            <li class="nav-item">
+                                <a class="nav-link navbutton brownbackground" href="index.html">HOME <span
                                         class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navbutton navbuttonactive" href="#">STYLISTS</a>
+                                <a class="nav-link navbutton navbuttonactive brownbackground" href="#">STYLISTS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navbutton" href="#">GALLERY</a>
+                                <a class="nav-link navbutton brownbackground" href="#">GALLERY</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navbutton" href="#">CAREERS</a>
+                                <a class="nav-link navbutton brownbackground" href="#">CAREERS</a>
                             </li>
                         </ul>
                 </nav>
@@ -53,53 +54,76 @@
                     <img src="./images/hanhpic.jpg">
                     <h5>Hanh Truong</h5>
                     <p>Owner/Stylist</p>
-                    <a><button>View Bio</button></a>
+                    <a><button type="button" data-toggle="modal" data-target="#hanhModal" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/ashleypic.jpg">
                     <h5>Ashley Privett</h5>
                     <p>Stylist</p>
-                    <a><button>View Bio</button></a>
+                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/elainepic.jpg">
                     <h5>Elaine Sheu</h5>
                     <p>Nail Technician/Esthetician</p>
-                    <a><button>View Bio</button></a>
+                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/amandapic.jpg">
                     <h5>Amanda Coons</h5>
                     <p>Stylist</p>
-                    <a><button>View Bio</button></a>
+                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/kirstinpic.png">
                     <h5>Kirstin Rydalch</h5>
                     <p>Stylist</p>
-                    <a><button>View Bio</button></a>
+                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/breannapic.jpg">
                     <h5>Breanna Smith</h5>
                     <p>Stylist</p>
-                    <a><button>View Bio</button></a>
+                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/katepic.jpg">
                     <h5>Kate Huynh</h5>
                     <p>Stylist</p>
-                    <a><button>View Bio</button></a>
+                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/lypic.jpg">
                     <h5>Ly Tran</h5>
                     <p>Stylist</p>
-                    <a><button>View Bio</button></a>
+                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
             </div>
         </div>
     </div>
+    <div class="footerdiv">
+        <div className="copyright col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 center">
+            <small class='footertext'>Hair Elegance </small><small class='footertext'>&copy;2020</small>
+        </div>
+    </div>
+
+    <!--HANH MODAL-->
+    <div class="modal fade" id="hanhModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Hanh Truong <br> Mobile: 801-860-3102<br><a href="https://www.instagram.com/asianhairboss" class="instagram" target="_blank"><i class="fa fa-instagram fa-lg"><h5 class="d-inline instatext">asianhairboss</h5></a></i></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="./images/hanhpic.jpg" class="float-left mr-3">
+                <p>HANH has been working as a hairstylist behind the chair for over 16 years. She loves customizing each clients color & cut to fit their personality lifestyle and needs. Along with specializing in color, highlights, balayage, women & men cuts she is certified in the Brazillian Blow out smoothing treatment and Foxy Hair beaded extensions. Customer service and continuing education is a high priority.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -109,6 +133,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+        })
+    </script>
 </body>
 
 </html>

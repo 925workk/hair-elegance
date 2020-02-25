@@ -45,8 +45,7 @@
 }
 
 .navbutton{
-    color: #f0e9e9 !important;
-    opacity: 67%;
+    color: #c2bbbb !important;
 }
 
 .navbuttonactive{
@@ -178,7 +177,49 @@
     color: #f0e9e9 !important;
     text-align: center;
 }
-   
+/* ------ STYLIST PAGE ------*/
+.stylistPageContainer{
+    background-image: url(images/binding_dark.png);
+    text-align: center;
+    background-repeat: repeat;
+    color: #f0e9e9;
+}
+
+.stylistPageContainer h5 {
+    position: relative;
+    top: 10px;
+}
+
+.stylistPageContainer a button{
+    position: relative;
+    bottom: 15px;
+    padding: 3px 7px 3px 7px;
+}
+
+.brownbackgroundbar{
+    width: 100%;
+    height: 40px;
+    background-color:#2b2724;
+    padding-bottom: 0;
+    position: absolute;
+}
+
+.brownbackground{
+    background-color:#2b2724;
+}
+
+.instagram{
+    color: black;
+    text-decoration: none;
+    text-decoration: underline !important;
+}
+
+.instatext{
+    text-decoration: underline;
+    position: relative;
+    bottom: 4px;
+    left: 3px;
+}
 /* ------ MEDIA QUIERIES ------*/
 
 @media (max-width: 991px) { 
