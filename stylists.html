@@ -37,13 +37,13 @@
                                         class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navbutton navbuttonactive brownbackground" href="#">STYLISTS</a>
+                                <a class="nav-link navbutton navbuttonactive brownbackground" href="stylists.html">STYLISTS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navbutton brownbackground" href="#">GALLERY</a>
+                                <a class="nav-link navbutton brownbackground" href="gallery.html">GALLERY</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navbutton brownbackground" href="#">CAREERS</a>
+                                <a class="nav-link navbutton brownbackground" href="careers.html">CAREERS</a>
                             </li>
                         </ul>
                 </nav>
@@ -60,43 +60,43 @@
                     <img src="./images/ashleypic.jpg">
                     <h5>Ashley Privett</h5>
                     <p>Stylist</p>
-                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
+                    <a><button type="button" data-toggle="modal" data-target="#ashleyModal" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/elainepic.jpg">
                     <h5>Elaine Sheu</h5>
                     <p>Nail Technician/Esthetician</p>
-                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
+                    <a><button type="button" data-toggle="modal" data-target="#elaineModal" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/amandapic.jpg">
                     <h5>Amanda Coons</h5>
                     <p>Stylist</p>
-                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
+                    <a><button type="button" data-toggle="modal" data-target="#amandaModal" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/kirstinpic.png">
                     <h5>Kirstin Rydalch</h5>
                     <p>Stylist</p>
-                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
+                    <a><button type="button" data-toggle="modal" data-target="#kirstinModal" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/breannapic.jpg">
                     <h5>Breanna Smith</h5>
                     <p>Stylist</p>
-                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
+                    <a><button type="button" data-toggle="modal" data-target="#breannaModal" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/katepic.jpg">
                     <h5>Kate Huynh</h5>
                     <p>Stylist</p>
-                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
+                    <a><button type="button" data-toggle="modal" data-target="#kateModal" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
                 <div class="col-md-3 text-center mb-5 mt-4">
                     <img src="./images/lypic.jpg">
                     <h5>Ly Tran</h5>
                     <p>Stylist</p>
-                    <a><button type="button" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
+                    <a><button type="button" data-toggle="modal" data-target="#lyModal" class="btn btn-outline-light mt-1 mx-auto">View Bio</button></a>
                 </div>
             </div>
         </div>
@@ -125,6 +125,133 @@
         </div>
       </div>
 
+    <!--ashley MODAL-->
+    <div class="modal fade" id="ashleyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ashley Privett <br> Mobile: 801-712-9117<br><a href="https://www.instagram.com/_hair_by_ashley_" class="instagram" target="_blank"><i class="fa fa-instagram fa-lg"><h5 class="d-inline instatext">_hair_by_ashley_</h5></a></i></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="./images/ashleypic.jpg" class="float-left mr-3">
+                <p>I’ve been a licensed stylist since 2009, but have been interested and practiced with hair for much longer. I love all the different types of cuts and colors, and staying up on all of the industry trends.
+                    Call or text me for appointments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--elaine MODAL-->
+    <div class="modal fade" id="elaineModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Elaine Sheu<br> 801-755-2034</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="./images/elainepic.jpg" class="float-left mr-3">
+                <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--amanda MODAL-->
+    <div class="modal fade" id="amandaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Amanda Coons<br> Mobile: 801-635-4308<br><a href="https://www.instagram.com/akacoons" class="instagram" target="_blank"><i class="fa fa-instagram fa-lg"><h5 class="d-inline instatext">akacoons</h5></a></i></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="./images/amandapic.jpg" class="float-left mr-3">
+                <p>I have always had a passion for hair and makeup. I have been licensed for 11 years. I enjoy making big changes, or creating the everyday styles that’ll last for weeks. Cutting and shaping is a passion, and continuing my education on new coloring techniques and products is a must for me. Being trained in classic barbering has been an asset in my profession because men need to look their best too. Educating my clients on styles and techniques is essential to the process of me doing their hair including at-maintenance and scheduling future appointments to maintain beautiful healthy hair. Special event hair and make up is what I really live for and excel at. Making the world more beautiful one client at a time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--kirstin MODAL-->
+    <div class="modal fade" id="kirstinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Kirstin Rydalch <br> Mobile: 801-634-6199<br><a href="https://www.instagram.com/kirstinryd" class="instagram" target="_blank"><i class="fa fa-instagram fa-lg"><h5 class="d-inline instatext">kirstinryd</h5></a></i></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="./images/kirstinpic.png" class="float-left mr-3">
+                <p>Kirstin has been with the Hair Elegance team just over 6 years. She loves getting to know her clients and giving them exactly what they are looking for. Color and cuts for men and women are a few services she offers.
+                    Please call or text to make an appointment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--breanna MODAL-->
+    <div class="modal fade" id="breannaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Breanna Smith <br> Mobile: 801-472-1718<br><a href="https://www.instagram.com/bresbeautyworks" class="instagram" target="_blank"><i class="fa fa-instagram fa-lg"><h5 class="d-inline instatext">bresbeautyworks</h5></a></i></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="./images/breannapic.jpg" class="float-left mr-3">
+                <p>Hi my names Breanna and I love all things hair! I’m passionate about all color services including balayages and foil work! I’m also passionate about styling, updos for special events and both woman’s and men’s hair cuts! My favorite part of being a hairstylist is watching the transformation of your hair and making my clients happy!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--kate MODAL-->
+    <div class="modal fade" id="kateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Kate Huynh <br> Mobile: 801-803-9099</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="./images/katepic.jpg" class="float-left mr-3">
+                <p>My name is Kate Huynh. I have been doing hair for over 14 years.  Working for City Creek AVEDA for over 3 years out of the 14 years. Specializing in color, cuts and balayage. I love to make my clients feel great and look good. I have a 3 year old daughter and 2 dogs. I like to hike and do yoga on my free time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!--ly MODAL-->
+    <div class="modal fade" id="lyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Ly Tran <br> Mobile: 801-718-7719<br><a href="https://www.instagram.com/lyloveshair" class="instagram" target="_blank"><i class="fa fa-instagram fa-lg"><h5 class="d-inline instatext">lyloveshair</h5></a></i></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="./images/lypic.jpg" class="float-left mr-3">
+                <p>HANH has been working as a hairstylist behind the chair for over 16 years. She loves customizing each clients color & cut to fit their personality lifestyle and needs. Along with specializing in color, highlights, balayage, women & men cuts she is certified in the Brazillian Blow out smoothing treatment and Foxy Hair beaded extensions. Customer service and continuing education is a high priority.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

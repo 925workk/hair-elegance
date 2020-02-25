@@ -220,6 +220,10 @@
     bottom: 4px;
     left: 3px;
 }
+
+.modal-content{
+    background-color: #f0e9e9;
+}
 /* ------ MEDIA QUIERIES ------*/
 
 @media (max-width: 991px) { 
