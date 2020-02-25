@@ -51,6 +51,7 @@
 
 .navbuttonactive{
     color: #f0e9e9 !important;
+    opacity: 100%;
 }
 
 .navbar-toggler{
@@ -170,7 +171,11 @@
     top:20px;
 }
 /* ------ FOOTER ------*/
-
+.footerdiv{
+    background-color: #2b2724 !important;
+    color: #f0e9e9 !important;
+    text-align: center;
+}
    
 /* ------ MEDIA QUIERIES ------*/
 
@@ -221,8 +226,8 @@
         bottom: 80px;
     }
     .servicesContainer{
-        background: none;
-        background-color: #281e17;
+        background-image: url(images/dark_wood.png);
         text-align: center;
+        background-repeat: repeat;
     }
 }
