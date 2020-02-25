@@ -1,5 +1,5 @@
 /* ------ LANDING PAGE INDEX HTML NAVBAR ------*/
-.homepagelanding{
+/* .homepagelanding{
     height: 100vh;
     background: linear-gradient(rgba(44, 31, 31, 0.6), rgba(21, 21, 21, 0.9)), url('./images/salonimage.jpg');
     background-repeat: no-repeat;
@@ -9,11 +9,29 @@
     border-bottom: 4px solid #2b2724;
     border-top: 4px solid #2b2724;
     margin-bottom: 0;
+} */
+
+.homepagelanding{
+    background: linear-gradient(rgba(44, 31, 31, 0.6), rgba(21, 21, 21, 0.9)), url('./images/salonimage.jpg');
+    background-position: center;
+    border-bottom: 4px solid #2b2724;
+    border-top: 4px solid #2b2724;
 }
+
+.invisible{
+    opacity: 0%;
+}
+
 #navbarhomescreen{
     position: relative;
     z-index: 100;
+    padding: 0;
   }
+
+.fixed-top{
+    background-color:#2b2724;
+    padding-bottom: 0;
+}
 
 .navigationlinks{
     text-align: center;
@@ -51,35 +69,37 @@
     color: #f0e9e9 !important;
 }
 
-.landingmessage{
-    text-align: center;
-    position: relative;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, 80%);
-}
-
 .sheers{
     transform: rotate(-36deg);
-    position: relative;
-    top: -10px;
+    /* position: relative;
+    top: -10px; */
 }
 
 .landingmessage h1{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
     position: relative;
-    bottom:40px;
+    bottom:40px; */
+    font-size: 16px;
+    position: relative;
+    bottom:32px;
+    color: #f0e9e9;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .landingmessage h2{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     position: relative;
     top: 70px;
     letter-spacing: 8px;
+    word-spacing: 8px; */
+    color: #f0e9e9;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
     word-spacing: 8px;
+    font-size: 36px;
 }
 
 #h2bottom {
@@ -88,10 +108,11 @@
 }
 
 .learnMoreButton{
-    position: relative;
+    /* position: relative;
     top: 260px !important;
     width: 140px;
-    letter-spacing: 1px;
+    letter-spacing: 1px; */
+    margin-bottom: 70px;
 }
 
 /* ------ ABOUT US ------*/

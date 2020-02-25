@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- LANDING PAGE -->
-    <div class="homepagelanding">
+    <!-- <div class="homepagelanding">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light" id ="navbarhomescreen">
                 <a class="navbar-brand hairelegance" href="#">Hair Elegance</a>
@@ -54,9 +54,50 @@
                 </div>
             </div>
         </div>
+    </div> -->
+    <!-- New Landing Page -->
+    <div class="homepagelanding">
+        <div class="container">
+            <div class="nav-section">
+                <nav class="navbar navbar-expand-md navbar-light" id ="navbarhomescreen">
+                    <a class="navbar-brand hairelegance" href="#">Hair Elegance</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">   
+                            <i class="fa fa-bars" style="color:#f0e9e9; font-size:28px;"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navigationlinks mx-auto centernavbuttons">
+                        <li class="nav-item active">
+                        <a class="nav-link navbuttonactive" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link navbutton" href="#">STYLISTS</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link navbutton" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link navbutton" href="#">CAREERS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 landingmessage text-center pb-5 pt-5 mt-5">
+                        <img src="./images/sheers.png" alt="sheers" style="width: 100px; height: 100px;" class="sheers">
+                        <h1>Hair Elegance</h1>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 landingmessage text-center pb-5 pt-3">
+                        <h2>WHERE BEAUTY<br>MEETS EXCELLENCE</h2>
+                        <a href="#about"><button type="button" class="btn btn-outline-light mt-1 mx-auto learnMoreButton">Learn More</button></a>
+                    </div>
+                </div>
+        </div>
     </div>
     <!-- ABOUT SECTION -->
-    <div class="aboutContainer">
+    <div class="aboutContainer" id="about">
         <div class="container">
             <h3 class="aboutus text-center pt-5 pb-4">A South Jordan Favorite Since 2008</h3>
             <div class="row">
