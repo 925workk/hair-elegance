@@ -245,6 +245,17 @@
   .entireGal{
       background-color: #f0e9e9;
   }
+
+/*------CAREERS------*/
+.jointeam{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+.hiringtext{
+    font-size: 20px;
+}
+
 /* ------ MEDIA QUIERIES ------*/
 
 @media (max-width: 991px) { 
