@@ -241,6 +241,10 @@
     margin-top: 15px;
     margin-bottom: 15px;
   }
+
+  .entireGal{
+      background-color: #f0e9e9;
+  }
 /* ------ MEDIA QUIERIES ------*/
 
 @media (max-width: 991px) { 
