@@ -115,6 +115,10 @@
     margin-bottom: 70px;
 }
 
+.covidButton{
+    color: red !important;
+}
+
 /* ------ ABOUT US ------*/
 
 .aboutContainer{
