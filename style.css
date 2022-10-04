@@ -11,319 +11,335 @@
     margin-bottom: 0;
 } */
 
-.homepagelanding{
-    background: linear-gradient(rgba(44, 31, 31, 0.6), rgba(21, 21, 21, 0.9)), url('./images/salonimage.jpg');
-    background-position: center;
-    border-bottom: 4px solid #2b2724;
-    border-top: 4px solid #2b2724;
+.homepagelanding {
+  background: linear-gradient(rgba(44, 31, 31, 0.6), rgba(21, 21, 21, 0.9)),
+    url("./images/salonimage.jpg");
+  background-position: center;
+  border-bottom: 4px solid #2b2724;
+  border-top: 4px solid #2b2724;
 }
 
-.invisible{
-    opacity: 0%;
+.topContainer {
+  min-height: 480px;
 }
 
-#navbarhomescreen{
-    position: relative;
-    z-index: 100;
-    padding: 0;
-  }
-
-.fixed-top{
-    background-color:#2b2724;
-    padding-bottom: 0;
+.invisible {
+  opacity: 0%;
 }
 
-.navigationlinks{
-    text-align: center;
-    font-size: 17px;
+#navbarhomescreen {
+  position: relative;
+  z-index: 100;
+  padding: 0;
 }
 
-.centernavbuttons{
-    position: relative;
-    right: 58px;
-    font-family: 'Montserrat', sans-serif;
+.fixed-top {
+  background-color: #2b2724;
+  padding-bottom: 0;
 }
 
-.navbutton{
-    color: #c2bbbb !important;
+.navigationlinks {
+  text-align: center;
+  font-size: 17px;
 }
 
-.navbuttonactive{
-    color: #f0e9e9 !important;
-    opacity: 100%;
+.centernavbuttons {
+  position: relative;
+  right: 58px;
+  font-family: "Montserrat", sans-serif;
 }
 
-.navbar-toggler{
-    border-color: #f0e9e9;
-    outline: none !important;
-    border: none !important;
+.navbutton {
+  color: #c2bbbb !important;
 }
 
-.collapsedcolor{
-    background-color: #f0e9e9 !important;
+.navbuttonactive {
+  color: #f0e9e9 !important;
+  opacity: 100%;
+}
+
+.navbar-toggler {
+  border-color: #f0e9e9;
+  outline: none !important;
+  border: none !important;
+}
+
+.collapsedcolor {
+  background-color: #f0e9e9 !important;
 }
 
 .hairelegance {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #f0e9e9 !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #f0e9e9 !important;
 }
 
-.sheers{
-    transform: rotate(-36deg);
-    /* position: relative;
+.sheers {
+  transform: rotate(-36deg);
+  /* position: relative;
     top: -10px; */
 }
 
-.landingmessage h1{
-    /* font-family: 'Montserrat', sans-serif;
+.landingmessage h1 {
+  /* font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
     position: relative;
     bottom:40px; */
-    font-size: 16px;
-    position: relative;
-    bottom:32px;
-    color: #f0e9e9;
-    font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  position: relative;
+  bottom: 32px;
+  color: #f0e9e9;
+  font-family: "Montserrat", sans-serif;
 }
 
-.landingmessage h2{
-    /* font-family: 'Montserrat', sans-serif;
+.landingmessage h2 {
+  /* font-family: 'Montserrat', sans-serif;
     font-size: 36px;
     position: relative;
     top: 70px;
     letter-spacing: 8px;
     word-spacing: 8px; */
-    color: #f0e9e9;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 8px;
-    word-spacing: 8px;
-    font-size: 36px;
+  color: #f0e9e9;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 8px;
+  word-spacing: 8px;
+  font-size: 36px;
 }
 
 #h2bottom {
-    position: relative;
-    bottom: 200px !important
+  position: relative;
+  bottom: 200px !important;
 }
 
-.learnMoreButton{
-    /* position: relative;
+.learnMoreButton {
+  /* position: relative;
     top: 260px !important;
     width: 140px;
     letter-spacing: 1px; */
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
-.covidButton{
-    color: red !important;
+.tanWords {
+  color: #d7d2cf;
+  font-size: 1px;
+}
+
+.covidButton {
+  color: white !important;
+  border-color: white !important;
+}
+.covidButton:hover {
+  background-color: none !important;
 }
 
 /* ------ ABOUT US ------*/
 
-.aboutContainer{
-    background-color: #d7d2cf;
-    padding-bottom: 30px;
+.aboutContainer {
+  background-color: #d7d2cf;
+  padding-bottom: 30px;
+  min-height: 70vh;
 }
 
-.aboutus{
-    /* font-family: 'Lora', serif; */
-    /* font-family: 'Karla', sans-serif; */
-    font-family: 'Montserrat', sans-serif;
+.aboutus {
+  /* font-family: 'Lora', serif; */
+  /* font-family: 'Karla', sans-serif; */
+  font-family: "Montserrat", sans-serif;
 }
 /* ------ STYLIST SECTION ------*/
-.stylistContainer{
-    background-color: #0d0d0d;
-    font-family: 'Montserrat', sans-serif;
-    color: #9e9b98;
+.stylistContainer {
+  background-color: #0d0d0d;
+  font-family: "Montserrat", sans-serif;
+  color: #9e9b98;
 }
 
-.stylistButton{
-    font-size: 12px;
-    color: #9e9b98;
-    border-color: #9e9b98;
-    margin-bottom: 40px;
+.stylistButton {
+  font-size: 12px;
+  color: #9e9b98;
+  border-color: #9e9b98;
+  margin-bottom: 40px;
 }
 
-.stylistText{
-    text-align: center;
-    position: relative;
-    top: 45%;
-    left: 30%;
-    transform: translate(-50%, 20%);
-    padding-bottom: 50px;
+.stylistText {
+  text-align: center;
+  position: relative;
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%, 20%);
+  padding-bottom: 50px;
 }
 
-.locationContainer{
-    padding-bottom: 40px;
+.locationContainer {
+  padding-bottom: 40px;
 }
-.location{
-    position: relative;
-    top: 50px;
+.location {
+  position: relative;
+  top: 50px;
 }
-
 
 /* ------ SERVICES SECTION ------*/
-.servicesContainer{
-    background: linear-gradient(rgba(44, 31, 31, 0.6), rgba(21, 21, 21, 0.9)), url('./images/background.jpg');
-    background-position: center;
-    color: #f0e9e9;
-    font-family: 'Montserrat', sans-serif;
+.servicesContainer {
+  background-image: url(images/dark_wood.png);
+  background-position: center;
+  color: #f0e9e9;
+  font-family: "Montserrat", sans-serif;
 }
 
-.serviceText{
-    position: relative;
-    top:20px;
+.serviceText {
+  position: relative;
+  top: 20px;
 }
 /* ------ FOOTER ------*/
-.footerdiv{
-    background-color: #2b2724 !important;
-    color: #f0e9e9 !important;
-    text-align: center;
+.footerdiv {
+  background-color: #2b2724 !important;
+  color: #f0e9e9 !important;
+  text-align: center;
 }
 /* ------ STYLIST PAGE ------*/
-.stylistPageContainer{
-    background-image: url(images/binding_dark.png);
-    text-align: center;
-    background-repeat: repeat;
-    color: #f0e9e9;
+.stylistPageContainer {
+  background-image: url(images/binding_dark.png);
+  text-align: center;
+  background-repeat: repeat;
+  color: #f0e9e9;
 }
 
 .stylistPageContainer h5 {
-    position: relative;
-    top: 10px;
+  position: relative;
+  top: 10px;
 }
 
-.stylistPageContainer a button{
-    position: relative;
-    bottom: 15px;
-    padding: 3px 7px 3px 7px;
+.stylistPageContainer a button {
+  position: relative;
+  bottom: 15px;
+  padding: 3px 7px 3px 7px;
 }
 
-.brownbackgroundbar{
-    width: 100%;
-    height: 40px;
-    background-color:#2b2724;
-    padding-bottom: 0;
-    position: absolute;
+.brownbackgroundbar {
+  width: 100%;
+  height: 40px;
+  background-color: #2b2724;
+  padding-bottom: 0;
+  position: absolute;
 }
 
-.brownbackground{
-    background-color:#2b2724;
+.brownbackground {
+  background-color: #2b2724;
 }
 
-.instagram{
-    color: black;
-    text-decoration: none;
-    text-decoration: underline !important;
+.instagram {
+  color: black;
+  text-decoration: none;
+  text-decoration: underline !important;
 }
 
-.instatext{
-    text-decoration: underline;
-    position: relative;
-    bottom: 4px;
-    left: 3px;
+.instatext {
+  text-decoration: underline;
+  position: relative;
+  bottom: 4px;
+  left: 3px;
 }
 
-.modal-content{
-    background-color: #f0e9e9;
+.modal-content {
+  background-color: #f0e9e9;
 }
 /*------GALLERY------*/
-.galleryPageContainer{
-    background-color: black;
+.galleryPageContainer {
+  background-color: black;
 }
-.btn:focus, .btn:active, button:focus, button:active {
-    outline: none !important;
-    box-shadow: none !important;
-  }
-  
-  #image-gallery .modal-footer{
-    display: block;
-  }
-  
-  .thumb{
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
 
-  .entireGal{
-      background-color: #f0e9e9;
-  }
+#image-gallery .modal-footer {
+  display: block;
+}
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.entireGal {
+  background-color: #f0e9e9;
+}
 
 /*------CAREERS------*/
-.jointeam{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+.jointeam {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
 }
 
-.hiringtext{
-    font-size: 20px;
+.hiringtext {
+  font-size: 20px;
 }
 
 /* ------ MEDIA QUIERIES ------*/
 
-@media (max-width: 991px) { 
-    .stylistText{
-        text-align: center;
-        position: relative;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%, 20%);
-    }
+@media (max-width: 991px) {
+  .stylistText {
+    text-align: center;
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+  }
 
-    .centernavbuttons{
-        position: relative;
-        right: 0px;
-        font-family: 'Montserrat', sans-serif;
-    }
+  .centernavbuttons {
+    position: relative;
+    right: 0px;
+    font-family: "Montserrat", sans-serif;
+  }
 
-    .landingmessage{
-        position: relative;
-        bottom: 80px;
-    }
+  .landingmessage {
+    position: relative;
+    bottom: 80px;
+  }
 
-    .landingContents{
-        position: relative;
-        bottom: 80px;
-    }
-    .locationText{
-        text-align: center;
-    }
+  .landingContents {
+    position: relative;
+    bottom: 80px;
+  }
+  .locationText {
+    text-align: center;
+  }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+  .centernavbuttons {
+    position: relative;
+    right: 0px;
+    font-family: "Montserrat", sans-serif;
+  }
 
-    .centernavbuttons{
-        position: relative;
-        right: 0px;
-        font-family: 'Montserrat', sans-serif;
-    }
+  .landingmessage {
+    position: relative;
+    bottom: 80px;
+  }
 
-    .landingmessage{
-        position: relative;
-        bottom: 80px;
-    }
-
-    .landingContents{
-        position: relative;
-        bottom: 80px;
-    }
-    .servicesContainer{
-        background-image: url(images/dark_wood.png);
-        text-align: center;
-        background-repeat: repeat;
-    }
-    .map-responsive{
-        overflow:hidden;
-        padding-bottom:56.25%;
-        position:relative;
-        height:0;
-    }
-    .map-responsive iframe{
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position:absolute;
-    }
+  .landingContents {
+    position: relative;
+    bottom: 80px;
+  }
+  .servicesContainer {
+    background-image: url(images/dark_wood.png);
+    text-align: center;
+    background-repeat: repeat;
+  }
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
 }
